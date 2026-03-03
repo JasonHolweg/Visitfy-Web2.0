@@ -100,6 +100,7 @@
       return;
     }
 
+    var originalBtnText = submitBtn ? submitBtn.textContent : '';
     if (submitBtn) {
       submitBtn.disabled = true;
       submitBtn.textContent = 'Wird gesendet…';
@@ -125,7 +126,7 @@
       .finally(function () {
         if (submitBtn) {
           submitBtn.disabled = false;
-          submitBtn.textContent = 'Nachricht senden';
+          submitBtn.textContent = originalBtnText;
         }
       });
   }

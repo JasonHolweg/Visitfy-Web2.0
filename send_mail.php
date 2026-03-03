@@ -31,6 +31,9 @@ if ($name === '' || $email === '' || $message === '') {
     exit;
 }
 
+// Strip newlines to prevent SMTP header injection
+$email = str_replace(["\r", "\n"], '', $email);
+
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     http_response_code(400);
     echo json_encode(['ok' => false, 'error' => 'Invalid email address']);
