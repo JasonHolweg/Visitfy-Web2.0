@@ -9,6 +9,8 @@ Thumbs.db
 .env
 .env.local
 *.env
+deploy
+deploy.sh
 
 # IDE
 .idea/
