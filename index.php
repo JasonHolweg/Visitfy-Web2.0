@@ -12,7 +12,7 @@ include 'includes/header.php';
   <canvas id="intro-canvas"></canvas>
 
   <div id="intro-text">
-    <h1>Visitfy</h1>
+    <img src="assets/img/visitfy-logo.svg" alt="Visitfy" class="intro-logo-mark">
     <p>360° Rundgänge die begeistern</p>
     <p class="scroll-hint">Klicken zum Fortfahren</p>
   </div>
@@ -28,9 +28,9 @@ include 'includes/header.php';
   <!-- ── HERO ──────────────────────────────────────────────── -->
   <section class="hero section" aria-labelledby="hero-heading">
     <!-- Background orbs -->
-    <div class="orb" style="width:500px;height:500px;top:-100px;left:-150px;background:radial-gradient(circle,rgba(78,205,196,0.2),transparent 70%)"></div>
-    <div class="orb" style="width:400px;height:400px;bottom:50px;right:-80px;background:radial-gradient(circle,rgba(168,85,247,0.2),transparent 70%)"></div>
-    <div class="orb" style="width:300px;height:300px;top:40%;left:55%;background:radial-gradient(circle,rgba(59,130,246,0.15),transparent 70%)"></div>
+    <div class="orb" style="width:500px;height:500px;top:-100px;left:-150px;background:radial-gradient(circle,rgba(111,169,184,0.14),transparent 72%)"></div>
+    <div class="orb" style="width:400px;height:400px;bottom:50px;right:-80px;background:radial-gradient(circle,rgba(127,134,184,0.14),transparent 72%)"></div>
+    <div class="orb" style="width:300px;height:300px;top:40%;left:55%;background:radial-gradient(circle,rgba(111,143,179,0.11),transparent 72%)"></div>
 
     <div class="container hero-content">
       <div class="hero-badge"><span class="dot"></span> 360° Rundgänge für moderne Unternehmen</div>
@@ -94,42 +94,42 @@ include 'includes/header.php';
 
       <div class="features-grid">
         <article class="feature-card glass fade-up fade-up-d1"
-                 style="--accent-grad:linear-gradient(90deg,#4ecdc4,#3b82f6);--icon-bg:rgba(78,205,196,0.12);--icon-border:rgba(78,205,196,0.25)">
+           style="--accent-grad:linear-gradient(90deg,#6fa9b8,#6f8fb3);--icon-bg:rgba(111,169,184,0.10);--icon-border:rgba(111,169,184,0.22)">
           <div class="feature-icon">🎯</div>
           <h3>Mehr Vertrauen</h3>
           <p>Transparente Einblicke erzeugen Vertrauen noch bevor der erste Kontakt stattfindet.</p>
         </article>
 
         <article class="feature-card glass fade-up fade-up-d2"
-                 style="--accent-grad:linear-gradient(90deg,#a855f7,#f472b6);--icon-bg:rgba(168,85,247,0.12);--icon-border:rgba(168,85,247,0.25)">
+           style="--accent-grad:linear-gradient(90deg,#7f86b8,#8f86a8);--icon-bg:rgba(127,134,184,0.10);--icon-border:rgba(127,134,184,0.22)">
           <div class="feature-icon">📈</div>
           <h3>Mehr Anfragen</h3>
           <p>Bessere Sichtbarkeit auf Google Maps und höhere Konversion dank immersiver Erlebnisse.</p>
         </article>
 
         <article class="feature-card glass fade-up fade-up-d3"
-                 style="--accent-grad:linear-gradient(90deg,#fbbf24,#f97316);--icon-bg:rgba(251,191,36,0.12);--icon-border:rgba(251,191,36,0.25)">
+           style="--accent-grad:linear-gradient(90deg,#8ea2b5,#6f8fb3);--icon-bg:rgba(142,162,181,0.10);--icon-border:rgba(142,162,181,0.22)">
           <div class="feature-icon">⚡</div>
           <h3>Schnelle Lieferung</h3>
           <p>Von der Aufnahme zum fertigen Rundgang in durchschnittlich 5 Tagen – sauber und professionell.</p>
         </article>
 
         <article class="feature-card glass fade-up fade-up-d4"
-                 style="--accent-grad:linear-gradient(90deg,#10b981,#4ecdc4);--icon-bg:rgba(16,185,129,0.12);--icon-border:rgba(16,185,129,0.25)">
+           style="--accent-grad:linear-gradient(90deg,#6d958f,#6fa9b8);--icon-bg:rgba(109,149,143,0.10);--icon-border:rgba(109,149,143,0.22)">
           <div class="feature-icon">🌐</div>
           <h3>Überall integrierbar</h3>
           <p>Einbindung per iFrame auf Websites, Google Maps, Social Media und Buchungsportalen.</p>
         </article>
 
         <article class="feature-card glass fade-up fade-up-d5"
-                 style="--accent-grad:linear-gradient(90deg,#3b82f6,#a855f7);--icon-bg:rgba(59,130,246,0.12);--icon-border:rgba(59,130,246,0.25)">
+           style="--accent-grad:linear-gradient(90deg,#6f8fb3,#7f86b8);--icon-bg:rgba(111,143,179,0.10);--icon-border:rgba(111,143,179,0.22)">
           <div class="feature-icon">📱</div>
           <h3>Mobile & VR-Ready</h3>
           <p>Optimiert für Smartphones, Tablets, Desktop – und vollständig VR-kompatibel.</p>
         </article>
 
         <article class="feature-card glass fade-up fade-up-d1"
-                 style="--accent-grad:linear-gradient(90deg,#f472b6,#ff6b6b);--icon-bg:rgba(244,114,182,0.12);--icon-border:rgba(244,114,182,0.25)">
+           style="--accent-grad:linear-gradient(90deg,#8f86a8,#5b6d86);--icon-bg:rgba(143,134,168,0.10);--icon-border:rgba(143,134,168,0.22)">
           <div class="feature-icon">💬</div>
           <h3>Interaktive Infos</h3>
           <p>Hotspots mit Menüs, Preisen, Videos und Kontaktmöglichkeiten direkt im Rundgang.</p>
@@ -204,28 +204,28 @@ include 'includes/header.php';
 
       <div class="industries-grid">
         <article class="industry-card glass fade-up fade-up-d1"
-                 style="--grad:linear-gradient(135deg,rgba(78,205,196,0.1),rgba(59,130,246,0.08))">
+                 style="--grad:linear-gradient(135deg,rgba(111,169,184,0.10),rgba(111,143,179,0.08))">
           <div class="industry-icon">🏠</div>
           <h3>Immobilien</h3>
           <p>Virtuelle Besichtigungen für schnellere Entscheidungen und höhere Anfragequalität.</p>
         </article>
 
         <article class="industry-card glass fade-up fade-up-d2"
-                 style="--grad:linear-gradient(135deg,rgba(251,191,36,0.1),rgba(249,115,22,0.08))">
+                 style="--grad:linear-gradient(135deg,rgba(142,162,181,0.10),rgba(111,143,179,0.08))">
           <div class="industry-icon">🍽️</div>
           <h3>Gastronomie</h3>
           <p>Mehr Vertrauen durch transparente Einblicke in Atmosphäre und Raumgefühl.</p>
         </article>
 
         <article class="industry-card glass fade-up fade-up-d3"
-                 style="--grad:linear-gradient(135deg,rgba(168,85,247,0.1),rgba(244,114,182,0.08))">
+                 style="--grad:linear-gradient(135deg,rgba(127,134,184,0.10),rgba(143,134,168,0.08))">
           <div class="industry-icon">🏨</div>
           <h3>Hotels</h3>
           <p>Bessere Buchungsentscheidungen dank realistischer Darstellung von Zimmern und Flächen.</p>
         </article>
 
         <article class="industry-card glass fade-up fade-up-d4"
-                 style="--grad:linear-gradient(135deg,rgba(16,185,129,0.1),rgba(78,205,196,0.08))">
+                 style="--grad:linear-gradient(135deg,rgba(109,149,143,0.10),rgba(111,169,184,0.08))">
           <div class="industry-icon">🏥</div>
           <h3>Praxen</h3>
           <p>Professioneller erster Eindruck durch transparente Einblicke in Räume und Ausstattung.</p>
@@ -394,7 +394,7 @@ include 'includes/header.php';
 
   <!-- ── CTA ───────────────────────────────────────────────── -->
   <section class="cta-section" aria-labelledby="cta-heading">
-    <div class="orb" style="width:600px;height:600px;top:50%;left:50%;transform:translate(-50%,-50%);background:radial-gradient(circle,rgba(78,205,196,0.15),transparent 70%);opacity:0.7"></div>
+    <div class="orb" style="width:600px;height:600px;top:50%;left:50%;transform:translate(-50%,-50%);background:radial-gradient(circle,rgba(111,169,184,0.12),transparent 72%);opacity:0.55"></div>
     <div class="container" style="position:relative;z-index:1">
       <h2 class="fade-up" id="cta-heading">
         Bereit für deinen<br>
